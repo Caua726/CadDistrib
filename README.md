@@ -2,7 +2,7 @@
 
 Esse é um projeto em desenvolvimento, feito com Tauri, onde estou tentando aprender e implementar funcionalidades como cadastro, listagem e orçamentos para clientes, distribuidores, produtos, impostos, entre outras coisas.
 
-### O que já faz (ou pelo menos tenta):
+### O que já faz (ou pelo menos vai ):
 - Cadastra clientes, distribuidores, produtos, etc.
 - Importa dados.
 - Lista registros.
