@@ -1,2 +1,11 @@
-# CadDistrib
- CadDistrib é um software em desenvolvimento para cadastro, listagem e orçamento de clientes, distribuidores, produtos e impostos. Ainda está em fase de aprendizado, então algumas coisas podem não funcionar como esperado.
+## Descrição do Software
+
+Esse é um projeto em desenvolvimento, feito com Tauri, Typescript, ReactJS e Rust, onde estou tentando aprender e implementar funcionalidades como cadastro, listagem e orçamentos para clientes, distribuidores, produtos, impostos, entre outras coisas.
+
+### O que já faz (ou pelo menos tenta):
+- Cadastra clientes, distribuidores, produtos, etc.
+- Importa dados.
+- Lista registros.
+- Gera orçamentos.
+
+**Aviso:** O software ainda não está funcionando direito. Estou aprendendo e desenvolvendo ao mesmo tempo, então pode ser que algumas coisas nem funcionem ainda. Mas estou trabalhando nisso!
