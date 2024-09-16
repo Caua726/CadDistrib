@@ -1,6 +1,6 @@
 # CadDistrib - [EN](./README.md)
 
-This is a project in development, made with Tauri, Typescript, ReactJS, and Rust, where I am trying to learn and implement features such as registration, listing, and quotations for clients, distributors, products, taxes, and more.
+This is a project in development, made with Tauri, Typescript, ReactJS, and Rust, where I am trying to learn and put features such as registration, listing, and quotations for clients, distributors, products, taxes, and more.
 
 ## Table of Contents
 1. [What Does It Do?](#what-does-it-do)
@@ -13,7 +13,7 @@ This is a project in development, made with Tauri, Typescript, ReactJS, and Rust
 4. [Build](#build)
 5. [RoadMap](#roadmap)
 
-## What It Does (or will do in the future):
+## What It Makes (or will make in the future):
 - Registers clients, distributors, products, etc.
 - Imports data.
 - Lists records.
