@@ -10,6 +10,9 @@ Esse é um projeto em desenvolvimento, feito com Tauri, Typescript, ReactJS e Ru
    4. [Android](#android)
 3. [Contribuição](#contribuição)
 4. [Build](#build)
+    1. [Requisitos](#requisitos)
+    2. [Teste e Compilar](#teste)
+    3. [CrossCompile](#crosscompile)
 5. [RoadMap](#roadmap)
 
 ## O que Faz (ou fará no futuro):
@@ -62,7 +65,7 @@ Agradeço por qualquer coisa que for feita
 ```
 
 #### Linux
-1. #### Dependências do Sistema  
+1. #### Requisitos  
    Instale algumas dependências para sua distro:
    1. [Debian/Ubuntu](#debianubuntu)
    2. [Arch](#arch)
@@ -112,6 +115,39 @@ Agradeço por qualquer coisa que for feita
     ```
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     ```
+
+### Teste e Compilação
+Da pra abrir com o vs code, mas não coloquei uma task ainda pra rodar e buildar, então tem que rodar com o cargo ou o npm, oque preferir
+### Run Dev
+**Cargo**
+```
+cargo tauri dev
+```
+**Npm**
+```
+npm run tauri dev
+```
+### Compilar
+**Cargo**
+```
+cargo tauri build
+```
+**Npm**
+```
+npm run tauri build
+```
+OBS: não se se é só no arch linux, mas quando eu fui compilar, eu não consegui direito, então eu pesquisei um pouco e nao faco a menor ideioa do porque, mas colocando o codigo abaixo roda
+
+**Arch**
+```
+NO_STRIP=true cargo tauri build
+```
+### CrossCompile
+**Do Linux Para o Windows**
+Eu vou explicar somente so windows para o linux, pois não testei do windows para o linux, e também, não vejo muito motivo
+```fff
+cargo tauri build --runner cargo-xwin --target x86_64-pc-windows-msvc
+```
 
 ## RoadMap
 

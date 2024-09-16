@@ -11,6 +11,9 @@ This is a project in development, made with Tauri, Typescript, ReactJS, and Rust
    4. [Android](#android)
 3. [Contribution](#contribution)
 4. [Build](#build)
+    1. [Requirements](#requirements)
+    2. [Run and Compile](#run)
+    3. [CrossCompile](#crosscompile)
 5. [RoadMap](#roadmap)
 
 ## What It Does (or will do in the future):
@@ -64,7 +67,7 @@ Thank you for anything you do to help!
 ```
 
 #### Linux
-1. #### System Dependencies  
+1. #### Requirements  
    Install some dependencies for your distro:
    1. [Debian/Ubuntu](#debianubuntu)
    2. [Arch](#arch)
@@ -114,6 +117,37 @@ Thank you for anything you do to help!
     ```
     curl --proto '=https' --tlsv1.2 -sSf https://rustup.rs | sh
     ```
+### Test and Compile
+That can be open with vs code, but i still not have make an run or build task, so execute with cargo or npm
+### Run Dev
+**Cargo**
+```
+cargo tauri dev
+```
+**Npm**
+```
+npm run tauri dev
+```
+### Compilar
+**Cargo**
+```
+cargo tauri build
+```
+**Npm**
+```
+npm run tauri build
+```
+**Note: i dont know why, but in my case, in arch you need to use this command to build**
+**Arch**
+```
+NO_STRIP=true cargo tauri build
+```
+### CrossCompile
+**Of Linux to Windows**
+for now, i only will explain this
+```fff
+cargo tauri build --runner cargo-xwin --target x86_64-pc-windows-msvc
+```
 
 ## RoadMap
 
