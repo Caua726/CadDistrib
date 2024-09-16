@@ -10,18 +10,19 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@tauri-apps/api": ">=2.0.0-rc.0",
     "@tauri-apps/plugin-shell": ">=2.0.0-rc.0",
+    "@tauri-apps/plugin-updater": "^2.0.0-rc",
     "@types/styled-components": "^5.1.34",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.53.0",
-    "react-router-dom": "^6.26.1",
+    "react-router-dom": "6.26.2",
     "react-slick": "^0.30.2",
-    "styled-components": "^6.1.13"
+    "styled-components": "^6.1.13",
+    "vue-cli-plugin-tauri": "^1.0.0"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^2.0.0-rc.13",
+    "@tauri-apps/cli": "1.6.1",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.2.1",
