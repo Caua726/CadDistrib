@@ -4,10 +4,10 @@ Esse é um projeto em desenvolvimento, feito com Tauri, Typescript, ReactJS e Ru
 ## Tabela de Conteúdos
 1. [O que Faz?](#o-que-faz)
 2. [Instalação / Executavel](#instalação)
-   1. [Windows](#windows)
-   2. [Linux](#linux)
-   3. [Mac](#mac)
-   4. [Android](#android)
+   2.1. [Windows](#windows)
+   2.2. [Linux](#linux)
+   2.3. [Mac](#mac)
+   2.4. [Android](#android)
 3. [Contribuição](#contribuição)
 4. [Build](#build)
 5. [RoadMap](#roadmap)
@@ -64,12 +64,12 @@ Agradeço por qualquer coisa que for feita
 #### Linux
 1. #### Dependências do Sistema  
    Instale algumas dependências para sua distro:
-   1. [Debian/Ubuntu](#debianubuntu)
-   2. [Arch](#arch)
-   3. [Fedora/RHEL](#fedorarhel)
-   4. [Gentoo](#gentoo)
-   5. [openSUSE](#opensuse)
-   6. [Void](#void)
+   1.1. [Debian/Ubuntu](#debianubuntu)
+   1.2. [Arch](#arch)
+   1.3. [Fedora/RHEL](#fedorarhel)
+   1.4. [Gentoo](#gentoo)
+   1.5. [openSUSE](#opensuse)
+   1.6. [Void](#void)
 
    #### Debian/Ubuntu
    ```bash
