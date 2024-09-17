@@ -159,7 +159,9 @@ Aqui estão os próximos passos planejados para o desenvolvimento do CadDistrib:
 ### 1. Interface
 - [x] Tela Inicial
 - [x] Tela Cadastro
-- [ ] Tela Cadastro de Clientes<br>...
+- [ ] Tela Cadastro de Cliente
+- [] O resto
+<br>...
 
 ### 2. Funcionalidades Básicas
 
@@ -177,6 +179,7 @@ Aqui estão os próximos passos planejados para o desenvolvimento do CadDistrib:
 - [ ] Sistema de notificações e lembretes.
 
 ### 4. Suporte a Multiplataformas
+- [ ] Make an bat/sh file to build easier in windows or a python script
 - [ ] Melhorar a compatibilidade com MacOS.
 - [ ] Implementar suporte completo para Android.
 - [ ] Build otimizado para instalações Linux.
