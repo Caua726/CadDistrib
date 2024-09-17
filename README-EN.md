@@ -17,7 +17,7 @@ This is a project in development, made with Tauri, Typescript, ReactJS, and Rust
 5. [RoadMap](#roadmap)
 
 ## What It Makes (or will make in the future):
-- Registers clients, distributors, products, etc.
+- Registration of clients, distributors, products, etc.
 - Imports data.
 - Lists records.
 - Generates quotations.
@@ -26,13 +26,15 @@ This is a project in development, made with Tauri, Typescript, ReactJS, and Rust
 
 ### Windows
 #### Executable:
-You can go to the [Releases](https://github.com/Caua726/CadDistrib/releases) and download the current version. After downloading, just run it. The program will open without installing anything but will save all files in the folder `%temp%/CadDistrib`. Do not delete this folder to keep your data.
+You can go to the [Releases](https://github.com/Caua726/CadDistrib/releases) and download the current version `importacao-e-venda.exe`. After downloading that, just run it. The program will open without installing anything but will save all files in the foldezr `%temp%/CadDistrib`. Do not delete this folder if you want keep your data.
 
 #### Install:
 To install, download the `Windows.7z` file from the [Releases](https://github.com/Caua726/CadDistrib/releases). After extracting it with 7zip, the installer will be located in the extracted folder.
 
 ### Linux
 Currently, only the AppImage format is available. You can download it from the [Releases](https://github.com/Caua726/CadDistrib/releases).
+so...
+Still in development.
 
 ### MacOS
 Still in development.
@@ -49,7 +51,7 @@ If you found a bug or have a suggestion for the project, feel free to open an **
 2. If it doesn’t exist, create a new **issue** detailing the problem or suggestion.
 3. If you prefer, send an email with details about the bug or suggestion.
 
-Thank you for anything you do to help!
+Thank you for anything!
 
 ## Build
 
@@ -137,7 +139,7 @@ cargo tauri build
 ```
 npm run tauri build
 ```
-**Note: i dont know why, but in my case, in arch you need to use this command to build**
+**Note: i dont know why, but in my case, in arch linux, you need to use this command to build**
 **Arch**
 ```
 NO_STRIP=true cargo tauri build
@@ -159,11 +161,13 @@ Here are the next steps planned for the development of CadDistrib:
 ### 1. Interface
 - [x] Initial Screen
 - [x] Registration Screen
-- [ ] Client Registration Screen<br>...
+- [x] Client Registration Screen
+- [ ] All other screens in the future
 
 ### 2. Basic Features
 
 - [ ] Complete Interface
+- [ ] English Complete Interface
 - [ ] Registration of clients, distributors, and products.
 - [ ] Listing of registered records.
 - [ ] Generation of basic quotations.
@@ -177,6 +181,7 @@ Here are the next steps planned for the development of CadDistrib:
 - [ ] Notification and reminder system.
 
 ### 4. Multi-platform Support
+- [ ] Make an bat/sh file to build easier in windows or a python script
 - [ ] Improve compatibility with MacOS.
 - [ ] Implement full Android support.
 - [ ] Optimized build for Linux installations.
