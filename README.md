@@ -25,7 +25,7 @@ Esse é um projeto em desenvolvimento, feito com Tauri, Typescript, ReactJS e Ru
 
 ### Windows
 #### Executavel:
-Você pode ir nas [Releases](https://github.com/Caua726/CadDistrib/releases) e baixar a versão atual. Após baixar, basta executá-la. O programa abrirá sem instalar nada, mas guardará todos os arquivos na pasta `%temp%/CadDistrib`. Não apague essa pasta para manter seus dados.
+Você pode ir nas [Releases](https://github.com/Caua726/CadDistrib/releases) e baixar a versão atual `importacao-e-venda.exe`. Após baixar, basta executá-la. O programa abrirá sem instalar nada, mas guardará todos os arquivos na pasta `%temp%/CadDistrib`. Não apague essa pasta para manter seus dados.
 
 #### Instalar:
 Para instalar, baixe o arquivo `Windows.7z` nas [Releases](https://github.com/Caua726/CadDistrib/releases). Após extraí-lo com o 7zip, o instalador estará localizado na pasta extraída.
