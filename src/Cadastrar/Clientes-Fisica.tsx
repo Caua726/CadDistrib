@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Clientes.css";
 import "../Cadastrar.css";
 
@@ -18,10 +19,6 @@ function ClientesFisica() {
 
   return (
     <div>
-      <div className="Voltar">
-        <a href="../Cadastrar">Voltar</a>
-      </div>
-
       <form className="form-container">
         <div className="form-content">
           <div className="form-fields">

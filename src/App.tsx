@@ -2,7 +2,7 @@ import "./App.css";
 import Cadastrar from "./Cadastrar";
 import Home from "./Home"
 import { Routes, Route} from "react-router-dom";
-import CadastrarClientesFisica from "./Cadastrar/Clientes-Fisica";
+import CadastrarClientes from "./Cadastrar/Clientes";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/cadastrar" element={<Cadastrar />} />
-        <Route path="/Cadastrar/Clientes-Fisica" element={<CadastrarClientesFisica />} />
+        <Route path="/Cadastrar/Clientes" element={<CadastrarClientes />} />
       </Routes>
     </div>
   );

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./App.css";
 function Home() {
 return(
@@ -6,28 +7,28 @@ return(
 
     <div className="row">
         <div className="Item">
-            <a href="">
+            <Link to="">
             <img className="logo importar" src="/importar.svg"/>
             <p>Importar</p>
-            </a>
+            </Link>
         </div>
         <div className="Item">
-            <a href="./Cadastrar"   >
+            <Link to="./Cadastrar"   >
             <img className="logo importar" src="/cadastrar.svg"/>
             <p>Cadastrar</p>
-            </a>  
+            </Link>  
         </div>
         <div className="Item">
-            <a href="#"   >
+            <Link to="#"   >
             <img className="logo importar" src="/listar.svg"/>
             <p>Listar</p>
-            </a>
+            </Link>
         </div>
         <div className="Item">
-            <a href="#"   >
+            <Link to="#"   >
             <img className="logo importar" src="/orcamento.svg"/>
             <p>Orcamento</p>
-            </a>  
+            </Link>  
         </div>
     </div>
 </div>

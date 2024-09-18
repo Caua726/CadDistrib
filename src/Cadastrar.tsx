@@ -1,67 +1,68 @@
 import "./Cadastrar.css"
 import "./App.css";
+import { Link } from "react-router-dom";
 function Cadastrar(){
     return(
         <div className="container">
             <div className="row">
             <div className="Item a">
-                        <a href="./Cadastrar/Clientes-Fisica">
+                        <Link to="./Clientes">
                         <img className="logo importar" src="./Cadastrar/Clientes.svg" />
                         <p>Clientes</p>
-                        </a>
+                        </Link>
                         </div>
             <div className="Item a">
-                        <a>
+                        <Link to="">
                         <img className="logo importar" src="./Cadastrar/Fornecedores.svg" />
                         <p>Fornecedores</p>
-                        </a>
+                        </Link>
                         </div>
             <div className="Item a">
-                        <a>
+                        <Link to="">
                         <img className="logo importar" src="./Cadastrar/Produto.svg" />
                         <p>Produtos</p>
-                        </a>
+                        </Link>
                         </div>
             <div className="Item a">
-                        <a>
+                        <Link to="">
                         <img className="logo importar" src="./Cadastrar/Imposto.svg" />
                         <p>Imposto</p>
-                        </a>
+                        </Link>
                         </div>
             <div className="Item a">
-                        <a>
+                        <Link to="">
                         <img className="logo importar" src="./Cadastrar/Preço.svg" />
                         <p>Preço</p>
-                        </a>
+                        </Link>
                         </div>      
                 <div className="Item a">
-                        <a>
+                        <Link to="">
                         <img className="logo importar" src="./Cadastrar/Distribuidores.svg" />
                         <p>Distribuidores</p>
-                        </a>
+                        </Link>
                         </div>
                 <div className="Item a">
-                    <a>
+                    <Link to="">
                     <img className="logo importar" src="./Cadastrar/Fabricantes.svg" />
                     <p>Fabricantes</p>
-                    </a>
+                    </Link>
                     </div>
                 <div className="Item a">
-                    <a>
+                    <Link to="">
                     <img className="logo importar" src="./Cadastrar/NCM.svg" />
                     <p>NCM</p>
-                    </a>
+                    </Link>
                     </div>
                 <div className="Item a">
-                    <a>
+                    <Link to="">
                     <img className="logo importar" src="./Cadastrar/Personalizado.svg" />
                     <p>Campos Perso.</p>
-                    </a>
+                    </Link>
                     </div>
           </div>  
 
             <div className="Voltar">
-                <a href="./">Voltar</a>
+                <Link to="../">Voltar</Link>
             </div>
         </div>
         )        

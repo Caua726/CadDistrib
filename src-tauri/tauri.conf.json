@@ -7,8 +7,9 @@
     "devUrl": "http://localhost:1420",
     "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build"
-  },
+    },
   "app": {
+    "withGlobalTauri": true,
     "windows": [
       {
         "title": "CadDistrib",
