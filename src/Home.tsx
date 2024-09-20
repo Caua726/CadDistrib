@@ -31,6 +31,9 @@ return(
             </Link>  
         </div>
     </div>
+    <div className="Voltar">
+        <a>Voltar</a>
+    </div>
 </div>
   );
   }

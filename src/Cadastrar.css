@@ -1,4 +1,5 @@
 .Voltar {
+    z-index: 100;
     position: fixed; /* Fixa o elemento em relação à janela de visualização */
     bottom: 5%;       /* Posiciona o elemento na parte inferior */
     right: 5%;
