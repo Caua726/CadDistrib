@@ -3,8 +3,9 @@ import "./Clientes.css";
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
-import { message } from '@tauri-apps/plugin-dialog';
+import { confirm } from '@tauri-apps/plugin-dialog';
 import { IMaskInput } from 'react-imask';
+import { open } from '@tauri-apps/plugin-shell';
 import {
   TextField,
   Select,
@@ -14,13 +15,43 @@ import {
   Button,
   Chip,
   Box,
+  Autocomplete,
 } from "@mui/material";
-
 interface CustomProps {
   inputRef: (ref: HTMLInputElement | null) => void;
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
   name: string;
 }
+
+const Estados = [
+  {"nome": "Acre", "sigla": "AC"},
+  {"nome": "Alagoas", "sigla": "AL"},
+  {"nome": "Amapá", "sigla": "AP"},
+  {"nome": "Amazonas", "sigla": "AM"},
+  {"nome": "Bahia", "sigla": "BA"},
+  {"nome": "Ceará", "sigla": "CE"},
+  {"nome": "Distrito Federal", "sigla": "DF"},
+  {"nome": "Espírito Santo", "sigla": "ES"},
+  {"nome": "Goiás", "sigla": "GO"},
+  {"nome": "Maranhão", "sigla": "MA"},
+  {"nome": "Mato Grosso", "sigla": "MT"},
+  {"nome": "Mato Grosso do Sul", "sigla": "MS"},
+  {"nome": "Minas Gerais", "sigla": "MG"},
+  {"nome": "Pará", "sigla": "PA"},
+  {"nome": "Paraíba", "sigla": "PB"},
+  {"nome": "Paraná", "sigla": "PR"},
+  {"nome": "Pernambuco", "sigla": "PE"},
+  {"nome": "Piauí", "sigla": "PI"},
+  {"nome": "Rio de Janeiro", "sigla": "RJ"},
+  {"nome": "Rio Grande do Norte", "sigla": "RN"},
+  {"nome": "Rio Grande do Sul", "sigla": "RS"},
+  {"nome": "Rondônia", "sigla": "RO"},
+  {"nome": "Roraima", "sigla": "RR"},
+  {"nome": "Santa Catarina", "sigla": "SC"},
+  {"nome": "São Paulo", "sigla": "SP"},
+  {"nome": "Sergipe", "sigla": "SE"},
+  {"nome": "Tocantins", "sigla": "TO"}
+]
 
 
 const MascaraCEP = React.forwardRef<HTMLInputElement, CustomProps>(
@@ -56,21 +87,79 @@ function ClientesFisica() {
   const [observations, setObservations] = useState("");
   const [cep, setCep] = useState('');
   const [endereco, setEndereco] = useState("");
+  const [numeroEndereco, setNumeroEndereco] = useState("");
+  const [cidade, setCidade] = useState("");
+  const [complemento, setComplemento] = useState("")
+  const [bairro, setBairro] = useState("")
+  const [rua, setRua] = useState("");
+  const [referencia, setReferencia] = useState("")
+  const [estado, setEstado] = useState<{ nome: string; sigla: string } | null>(null);
   const [photoPreview, setPhotoPreview] = useState<string | undefined>(
     undefined
   );
+  const messageErroCEP = 'CEP Não encontrado, por favor verifique se o CEP está correto, e tente novamente. Se estiver correto, por favor crie uma issue no GitHub'
+      const viaCEP = () => {
+        const cepSemFormatacao = cep.replace('-', '');
+        fetch(`https://opencep.com/v1/${cepSemFormatacao  }`)
+          .then((response: { json: () => any; }) => response.json())
+          .then(async (data) => {
+            if (data.error){ 
+              const issuenogithub = await confirm(messageErroCEP, { title: 'CadDistrib - Erro, CEP', kind: 'warning' });
+              if (issuenogithub === true){
+                await open('https://github.com/Caua726/CadDistrib/issues/new'); 
+                  } else {
+                console.log("Não Foi Criado");
+              }
+            } else {
+              const cidade = data.localidade;
+              setCidade(cidade);
+              const complemento = data.complemento
+              setComplemento(complemento);
+              let complementoFormatado = ", " + complemento;
+              const rua = data.logradouro 
+              setRua(rua);  
+              const bairro = data.bairro;
+              setBairro(bairro);
+              const estado = data.uf
+              const estadoObj = Estados.find(e => e.sigla === estado);
+              if (estadoObj) {
+                setEstado(estadoObj);
+              }
+              let enderecoParts = [];
 
-  const viaCEP = () => {
-    fetch(`https://viacep.com.br/ws/${cep}/json/`)
-      .then((response: { json: () => any; }) => response.json())
-      .then((data: any) => {
-        const endereco = `${data.logradouro}, "Numero" ${data.localidade} - ${data.uf}`;
-        setEndereco(endereco);
-      })
-      .catch(async (error: any) => { 
-        message('File not found', { title: 'Tauri', kind: 'error' });
-     });
-  };
+              // Verifica cada campo e adiciona ao endereço se estiver ativo
+              if (rua) {
+                enderecoParts.push(rua);
+              }
+            
+              if (numeroEndereco) {
+                enderecoParts.push(numeroEndereco);
+              }
+            
+              if (complemento) {
+                enderecoParts.push(complemento);
+              }
+            
+              if (bairro) {
+                enderecoParts.push(bairro);
+              }
+            
+              if (cidade) {
+                enderecoParts.push(cidade);
+              }
+            
+              if (estado) {
+                enderecoParts.push(estado);
+              }
+            
+              // Junta as partes do endereço com vírgulas e espaços
+              const endereco = enderecoParts.join(', ');    
+              
+            
+            setEndereco(endereco);
+          }
+          })
+      };
   const handlePhotoChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (file) {
@@ -265,6 +354,18 @@ function ClientesFisica() {
             <AccordionDetails>
             <Box sx={{    display: 'flex', gap: 2,}}>
               <TextField
+                label="Numero"
+                type="numeroEndereco"
+                name="numeroEndereco"
+                value={numeroEndereco}
+                onChange={(e) => setNumeroEndereco(e.target.value)}
+                sx={{ width: 1 / 8, gridRow: '1' }}
+                variant="outlined"
+                InputProps={{
+                  inputComponent: MascaraCEP as any,
+                }}
+              />
+              <TextField
                 label="CEP"
                 type="cep"
                 name="cep"
@@ -276,15 +377,72 @@ function ClientesFisica() {
                   inputComponent: MascaraCEP as any,
                 }}
               />
-              <Button variant="contained" type="button" onClick={viaCEP}>
+              <Button sx={{width: 1/8}} variant="contained" type="button" onClick={viaCEP}>
                 Procurar CEP
              </Button>
+             <Autocomplete
+            id="estado-autocomplete"
+            options={Estados}
+            getOptionLabel={(option) => option.nome}
+            value={estado}
+            onChange={(_e, newValue) => {
+              setEstado(newValue);
+            }}            renderInput={(params) => (
+              <TextField {...params} label="Estado" variant="outlined" />
+            )}
+            sx={{ width: 1 / 3, gridRow: '1' }}
+          />
+
+          </Box>
+          <Box sx={{    display: 'flex', gap: 2,}}>
+          <TextField  
+                label="Cidade"
+                type="cidade"
+                value={cidade}
+                onChange={(e) => setCidade(e.target.value)}
+                sx={{ width: 1/4, marginTop: 1.5, gridRow: '1' }} 
+                variant="outlined"
+              />          
               <TextField  
+              label="Complemento"
+              type="complemento"
+              value={complemento}
+              onChange={(e) => setComplemento(e.target.value)}
+              sx={{ width: 1/4, marginTop: 1.5, gridRow: '1' }} 
+              variant="outlined"
+            />              
+              <TextField  
+            label="Bairro"
+            type="bairro"
+            value={bairro}
+            onChange={(e) => setBairro(e.target.value)}
+            sx={{ width: 1/4, marginTop: 1.5, gridRow: '1' }} 
+            variant="outlined"
+          />
+            <TextField  
+              label="Referencia"
+              type="referencia"
+              value={referencia}
+              onChange={(e) => setReferencia(e.target.value)}
+              sx={{ width: 1/4, marginTop: 1.5, gridRow: '1' }} 
+              variant="outlined"
+            />
+          </Box>
+            <Box sx={{display: 'flex', gap: 2,}}>
+            <TextField  
+              label="Rua"
+              type="rua"
+              value={rua}
+              onChange={(e) => setRua(e.target.value)}
+              sx={{ width: 1/2, marginTop: 1.5, gridRow: '1' }} 
+              variant="outlined"
+            />
+          <TextField  
                 label="Endereço"
                 type="endereco"
-                value={endereco}
+                value={endereco}  
                 onChange={(e) => setEndereco(e.target.value)}
-                sx={{ width: 1, gridRow: '1' }} 
+                sx={{ width: 1, marginTop: 1.5, gridRow: '1' }} 
                 variant="outlined"
               />
           </Box>
