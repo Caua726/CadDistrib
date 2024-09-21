@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://github.com/Caua726/CadDistrib</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/LICENSE</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/issues</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/pulls</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/discussions</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/security</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/.gitattributes</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/.gitignore</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/CONTRIBUTING.md</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/Importacao-e-Venda.code-workspace</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/README-EN.md</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/README.md</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/SECURITY.md</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/dirlist</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/index.html</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/package-lock.json</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/package.json</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/tsconfig.json</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/tsconfig.node.json</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/update.json</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/blob/main/vite.config.ts</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/releases</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/labels</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/discussions/categories/announcements</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/discussions/categories/general</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/discussions/categories/ideas</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/discussions/categories/polls</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/discussions/categories/q-a</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/discussions/categories/show-and-tell</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/workflows/github-code-scanning/codeql</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/caches</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/runs/10952977179</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/runs/10951449534</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/runs/10926422245</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/runs/10926387243</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/login?return_to=https%3A%2F%2Fgithub.com%2FCaua726%2FCadDistrib%2Fsecurity%2Fadvisories%2Fnew</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/3e565788934619d8c5d1f0e6024300f87afc2257</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/releases/tag/alpha-preview</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/labels?sort=name-asc</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/labels?sort=name-desc</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/labels?sort=count-desc</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/labels?sort=count-asc</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/labels/bug</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/labels/documentation</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/labels/duplicate</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/labels/enhancement</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/labels/good%20first%20issue</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/labels/help%20wanted</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/labels/invalid</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/labels/question</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/labels/wontfix</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?state=open</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?state=closed</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/caches?query=sort%3Aaccessed-desc</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/caches?query=sort%3Aaccessed-asc</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/caches?query=sort%3Acreated-desc</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/caches?query=sort%3Acreated-asc</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/caches?query=sort%3Asize-desc</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/caches?query=sort%3Asize-asc</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/runs/10952977179/job/30412505215</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/runs/10952977179/usage</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/9ddc34077b723610c4152da9fecda190ca648672</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/runs/10951449534/job/30408502734</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/runs/10951449534/job/30408526858</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/runs/10951449534/usage</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/runs/10926422245/job/30330238656</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/runs/10926422245/usage</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/446916054d7ac9c537c9ae5bd51cdf23febd3a96</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/runs/10926387243/job/30330127455</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/runs/10926387243/job/30330184614</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/actions/runs/10926387243/usage</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/afa125e7a0239a9805e0703a912fcdaef21ff85c</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/192fa0c6e575ac031960dab12b98aac6117a9671</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/f17b3045bcc4436aab657b8ed4b95b0c070da9ef</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/31d6da0261233b0e25c17fcbbfc9623e5284e570</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/a5ca145fa1896ea01a5d8d86f942999856200970</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/75a17c2ba0cfc9e890a3206fd480d06ff95ce00e</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/458177783b7e7070ede500867fd01c19944b0b7b</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/eec4b1369e95022f2b42c21f6501c901f909e7c8</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/ac234ae19147fb82ebd0b0d8bf0e80bb7cabd59b</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/0fc5af239fe9ff2fd928fe6963ecf3fc3e41ac4f</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/b7c020d9972d437cdecbff38a3e127d93c4a74f9</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/37c155c3068774c529ceb1aac0dbf5c299ea5252</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/2da23ed87ae83490182fe885aece35140fbee01b</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/73dee7492ba3891488f145264db2aac06d150c59</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/089469dee45eed81eaad4549d1f113c1798a5179</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/cf823c24382c812723bc11895c03b09a80cebd88</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/0fb3397ef809f3b39d8415feb038afe99e5b311d</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.05</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/62b1a46222ef6ea7250f91adb3136be969b9616e</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://github.com/Caua726/CadDistrib/commit/38903381861e1e47204ef5cbac12ad2e5fdd81f4</loc>
+  <lastmod>2024-09-21T15:58:06+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+
+
+</urlset>
