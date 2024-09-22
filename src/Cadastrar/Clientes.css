@@ -2,6 +2,11 @@
   .formulario {
     display: flex;
   }
+  .datePicker {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+    border: 1px solid #444444 !important;
+  }   
 
   .formulario-inputs {
     flex: 2;
